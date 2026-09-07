@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# runtime outputs
+data/
+samples/input_face.jpg
+samples/*_downloaded*
+
+# solc binaries downloaded by py-solc-x
+.solcx/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,22 @@
+# Python 3.11 or 3.12 recommended (InsightFace / onnxruntime wheels).
+# Face detection + encoding
+insightface==1.0.1
+onnxruntime==1.29.0
+opencv-python==5.0.0.93
+numpy==2.5.3
+pillow==12.3.0
+
+# Reverse-image / social search
+requests==2.34.2
+
+# Blockchain
+web3==8.0.0
+eth-tester[py-evm]==0.14.0b1
+eth-utils==6.0.0
+
+# Config
+python-dotenv==1.2.3
+
+# Only needed to recompile the Solidity contract (scripts/compile_contract.py);
+# the compiled artifact is committed, so runtime does not require this.
+py-solc-x==2.0.5
